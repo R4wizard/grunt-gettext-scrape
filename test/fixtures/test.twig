@@ -1,0 +1,5 @@
+{{ __("welcome to our test") }}
+{% for i in 1..10 %}
+	{{ __n("we have completed %1 test", "we have completed %1 tests", i) }}
+{% endfor %}
+{{ __("test completed") }}

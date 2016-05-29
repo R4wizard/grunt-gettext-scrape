@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#. The alignment (left or right) of your language
+msgid "align"
+msgstr ""
+
+#: test/fixtures/test.twig:1 test/fixtures/test.php:7 test/fixtures/test.js:12 test/fixtures/test.cpp:20
+msgid "welcome to our test"
+msgstr ""
+
+#: test/fixtures/test.twig:5 test/fixtures/test.php:11 test/fixtures/test.js:16 test/fixtures/test.cpp:24
+msgid "test completed"
+msgstr ""
+
+#: test/fixtures/test.twig:3 test/fixtures/test.php:9 test/fixtures/test.js:14 test/fixtures/test.cpp:22
+msgid "we have completed %1 test"
+msgid_plural "we have completed %1 tests"
+msgstr[0] ""
+msgstr[1] ""
+
