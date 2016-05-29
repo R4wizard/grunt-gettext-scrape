@@ -43,7 +43,9 @@ module.exports = function(grunt) {
 		// Iterate over all specified file groups.
 		this.files.forEach(function(f) {
 			parser.reset();
-			_.each(f.src, function(item) {
+			_.each(grunt.file.expand({}, f.src), function(item) {
+				if(grunt.file.isDir(item))
+					return;
 				parser.parse(item);
 			});
 			var output = generator.generate(parser.getMessages());

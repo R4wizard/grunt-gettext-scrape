@@ -1,7 +1,7 @@
 {
   "name": "grunt-gettext-scrape",
   "description": "Grunt wrapper for the gettext-scrape package that generates POT files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/r4wizard/grunt-gettext-scrape",
   "author": {
     "name": "Peter Corcoran",
@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "async": "^1.5.2",
-    "gettext-scrape": "^0.1.0",
+    "gettext-scrape": "^0.1.1",
     "lodash": "^4.13.1"
   }
 }
